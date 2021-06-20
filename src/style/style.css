@@ -1,0 +1,86 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-image: url(../img/Pattern-Randomized.svg);
+}
+.navheader-img{
+    background: url(../img/Your_Best_Recipes.png);
+    background-size: contain;
+    width: 80px;
+    height: 70px;
+}
+.banner {
+    background: url(../img/header.png) no-repeat center; 
+    background-size: cover; 
+    width: 350px;
+    height: 350px;
+}
+.banner .display-3 {
+    font-weight: bold
+}
+.latar{
+    border-bottom:5px solid rgb(33, 119, 248, 0.7) ;
+}
+main{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.listmenu{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.container-footer{
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.container-footer p{
+    padding: 10px;
+}
+.footer-img{
+    background: url(../img/footer.png) no-repeat center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+
+}
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+@media (max-width:768px){
+    .topnav, .mainnav{
+        display: flex !important;
+        flex-basis: auto;
+        flex-direction: row;
+    }
+}
+
+  /* fungsi search */
+/* ------------------------------ */
+
+
+/* fungsi box informasi hasil search  */
+/* ---------------------------------- */
+
+/* recipe item */
+/* ---------------------------------- */
